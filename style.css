@@ -38,7 +38,6 @@ body{
 }
 
 .menu li:hover{
-    font-size: 18px;
     transition: 300ms;
     background-color: white;
     color: black;
