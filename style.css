@@ -21,27 +21,32 @@ body{
 }
 
 .menu{
+    display: flex;
     width: 100%;
     padding: 1px;
-    display: flex;
     align-items: center;
     justify-content: center;
     background-color: tomato;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
 }
 
-.menu li {
+.menu a {
     color: white;
     padding: 15px;
     border-left: 1px solid white;
     border-right: 1px solid white;
+    text-decoration: none;
     
 }
 
-.menu li:hover{
+
+.menu a:hover{
     transition: 300ms;
     background-color: white;
     color: black;
 }
+
 .main{
     display: flex;
 }
@@ -58,7 +63,6 @@ body{
 .content-header{
     background-color: rgb(255, 145, 0);
     text-align: start;
-    border-radius: 10px;
 }
 #text-article{
     padding-top:  50px;
